@@ -1,0 +1,17 @@
+name = "Atrium Activity Plus"
+description = "Adds experimental functionality to the Atrium Activity system."
+core = "6.x"
+dependencies[] = "atrium_activity"
+dependencies[] = "atrium_casetracker"
+dependencies[] = "book"
+dependencies[] = "comment"
+dependencies[] = "og_views"
+dependencies[] = "spaces"
+
+; Special Settings
+features[context][] = "book_node"
+features[context][] = "casetracker_node"
+features[ctools][] = "context:context:3"
+features[ctools][] = "strongarm:strongarm:1"
+features[views][] = "activity_plus_listing"
+features[views_api][] = "api:2"

@@ -1,0 +1,9 @@
+<?php
+// $Id$
+
+/**
+ * @file
+ *  Atrium Activity Plus module adds additional activity views for Open Atrium.
+ */
+
+include_once('atrium_activity_plus.features.inc');
